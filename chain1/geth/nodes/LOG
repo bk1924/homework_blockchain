@@ -1,0 +1,46 @@
+=============== Jan 15, 2020 (EST) ===============
+12:25:59.275328 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:25:59.289873 db@open opening
+12:25:59.293162 version@stat F·[] S·0B[] Sc·[]
+12:25:59.296570 db@janitor F·2 G·0
+12:25:59.299533 db@open done T·6.815909ms
+12:34:51.836941 db@close closing
+12:34:51.837265 db@close done T·320.177µs
+=============== Jan 15, 2020 (EST) ===============
+12:38:18.752085 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:38:18.753110 version@stat F·[] S·0B[] Sc·[]
+12:38:18.753151 db@open opening
+12:38:18.753244 journal@recovery F·1
+12:38:18.753351 journal@recovery recovering @1
+12:38:18.760497 memdb@flush created L0@2 N·1771 S·56KiB "loc..seq,v2":"version,v1"
+12:38:18.764503 version@stat F·[1] S·56KiB[56KiB] Sc·[0.25]
+12:38:18.789608 db@janitor F·3 G·0
+12:38:18.789640 db@open done T·36.473259ms
+=============== Jan 15, 2020 (EST) ===============
+12:38:23.194355 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:38:23.194648 version@stat F·[1] S·56KiB[56KiB] Sc·[0.25]
+12:38:23.194680 db@open opening
+12:38:23.194757 journal@recovery F·1
+12:38:23.194875 journal@recovery recovering @3
+12:38:23.204098 memdb@flush created L0@5 N·1 S·159B "loc..seq,v1773":"loc..seq,v1773"
+12:38:23.207739 version@stat F·[2] S·56KiB[56KiB] Sc·[0.50]
+12:38:23.232627 db@janitor F·4 G·0
+12:38:23.232672 db@open done T·37.976573ms
+12:41:17.385804 db@close closing
+12:41:17.385919 db@close done T·113.99µs
+=============== Jan 15, 2020 (EST) ===============
+12:42:08.896843 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:42:08.899046 version@stat F·[2] S·56KiB[56KiB] Sc·[0.50]
+12:42:08.899082 db@open opening
+12:42:08.899163 journal@recovery F·1
+12:42:08.899284 journal@recovery recovering @6
+12:42:08.908881 memdb@flush created L0@8 N·400 S·15KiB "loc..seq,v1775":"n:\xf9..ail,v1883"
+12:42:08.909478 version@stat F·[3] S·72KiB[72KiB] Sc·[0.75]
+12:42:08.929791 db@janitor F·5 G·0
+12:42:08.929829 db@open done T·30.733612ms
+12:42:08.938907 table@compaction L0·3 -> L1·0 S·72KiB Q·2175
+12:42:08.943834 table@build created L1@11 N·1665 S·64KiB "loc..seq,v1775":"version,v1"
+12:42:08.943907 version@stat F·[0 1] S·64KiB[0B 64KiB] Sc·[0.00 0.00]
+12:42:08.949507 table@compaction committed F-2 S-7KiB Ke·0 D·507 T·10.531799ms
+12:42:08.966504 table@remove removed @5
+12:42:08.966648 table@remove removed @2
